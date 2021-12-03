@@ -3,7 +3,7 @@ import axios from 'axios'
 
 const apiClient = axios.create({
   baseURL: `${process.env.baseUrl}/`,
-  withCredentials: true,
+  withCredentials: false,
   headers: {
     Accept: 'application/json',
     'Content-Type': 'application/json',
@@ -15,4 +15,8 @@ export default {
     getAll() {
       return apiClient.get('')
     },
+
+    addOne(name) {
+        return apiClient.post('', {name})
+    }
 }
