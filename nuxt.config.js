@@ -57,8 +57,12 @@ export default {
     theme: {
       dark: true,
       themes: {
+        light: {
+          primary: '#F76C6C',
+          white: "#FFF"
+        },
         dark: {
-          primary: colors.blue.darken2,
+          primary: '#F76C6C',
           accent: colors.grey.darken3,
           secondary: colors.amber.darken3,
           info: colors.teal.lighten1,
