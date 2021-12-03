@@ -6,8 +6,8 @@
 
 <script>
 export default {
-  data() {
-    return {}
+  async fetch() {
+    await this.$store.dispatch('argonauts/fetchArgonauts')
   },
 }
 </script>

@@ -38,6 +38,10 @@ export default {
     '@nuxtjs/vuetify',
   ],
 
+  env: {
+    baseUrl: process.env.API_URL,
+  },
+
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
