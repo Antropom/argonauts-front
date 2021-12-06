@@ -20,6 +20,22 @@
           ></v-switch>
         </v-row>
       </v-col>
+      <v-col cols="12" class="primary py-3 text-center white--text">
+        <v-row justify="center" align="center" no-gutters>
+          <v-icon large color="white" class="mr-2">mdi-github</v-icon>
+          <p class="mb-0 mr-2">Code source du projet :</p>
+          <a
+            href="https://github.com/Antropom/argonauts-front"
+            class="white--text mr-2"
+            >Front</a
+          >
+          <a
+            href="https://github.com/Antropom/argonauts-back"
+            class="white--text"
+            >Back</a
+          >
+        </v-row>
+      </v-col>
     </v-row>
   </v-footer>
 </template>
